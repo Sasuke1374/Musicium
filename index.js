@@ -168,7 +168,7 @@ client.on("message", async message => {
         return message.reply(`Unkown command, try: ${prefix}help`)
 });
 
-client.login(config.token);
+client.login(process.env.token);
 
 
 
