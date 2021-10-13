@@ -5,26 +5,16 @@ const config = require("./config.json");
 //BOT CODED BY: Tomato#6966//////////
 //DO NOT SHARE WITHOUT CREDITS!//////
 /////////////////////////////////////
-
-//Bot Fix by 𝙲𝚑𝚊 𝚃𝚘𝚌𝚑𝚒⁴ᵏⁱˡˡˢʰᵒᵗˢ👑🖤#9999//
-//Support server Royal Development https://discord.gg/mA62pnsyBK //
-//support server 𝙲𝚑𝚊 𝚃𝚘𝚌𝚑𝚒⁴ᵏⁱˡˡˢʰᵒᵗˢ👑🖤#9999 https://discord.gg/cQAwXkPwUb //
 const express = require("express");
-
 const app = express();
-
 const port = 3000;
 
 app.get("/", (req, res) => {
-
   res.send("Hello World!");
-
 });
 
 app.listen(port, () => {
-
   console.log(`Your app listening at Port: ${port}`);
-
 });
 
 const {
@@ -53,7 +43,7 @@ const cooldowns = new Collection();
 //BOT CODED BY: Tomato#6966
 //DO NOT SHARE WITHOUT CREDITS!
 const https = require('https-proxy-agent');
-const proxy = 'http://123.123.123.123:8080';
+const proxy = 'http://lava.link:80';
 const agent = https(proxy);
 client.distube = new DisTube(client, {
     youtubeCookie: config.cookie,
